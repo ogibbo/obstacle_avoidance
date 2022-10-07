@@ -1,3 +1,4 @@
+% Function to generate random obstacles on the map
 function [MapwithStuff]=StuffSpawner(OccupancyMap,NumStuff,resolution)
     StuffCoords=zeros(999,2);
     for i=1:NumStuff
@@ -21,6 +22,6 @@ function [MapwithStuff]=StuffSpawner(OccupancyMap,NumStuff,resolution)
 %         y = [StuffY:1/resolution:(StuffY+24/resolution)]';
 %         setOccupancy(OccupancyMap,[x y],ones(25,1));
         
-        MapwithStuff=OccupancyMap;
+        MapWithStuff=OccupancyMap;
         
     end

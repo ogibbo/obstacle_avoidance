@@ -1,3 +1,4 @@
+% Function to complete the delivery attempt simulation
 function [timetaken,DeliveryOutcome,EndPose] = PathFollowing(path,current_pose)
 
 %%Inputs:
@@ -43,7 +44,6 @@ attachLidarSensor(viz,lidar);
 % Create waypoints
 waypoints = [initPose(1:2)'; path];
              
-         
 %Setting maximum valocity of the robot
 
 vmax = 0.7;

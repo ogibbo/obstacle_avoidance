@@ -22,12 +22,5 @@ map_with_obstacles = StuffSpawner(normal_map,10,resolution);
 % Initial conditions for the robot
 initPose = [path(1,1);path(1,2);pi/2];       % Initial pose (x y theta)
 
+% Completing the simulation
 [timetaken,DeliveryOutcome,OutputPose] = PathFollowing(path,initPose);
-
-
- 
-
-
-
-
-
